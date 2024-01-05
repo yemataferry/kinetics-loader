@@ -28,15 +28,15 @@ body {
   height: 0;
   border: 50px solid transparent;
   border-bottom-color: #fff;
-  animation: rotate-A 2s linear infinite 0.5s;
+  animation: rotate-a 2s linear infinite 0.5s;
 }
 
 .kinetic::before {
   transform: rotate(90deg);
-  animation: rotate-B 2s linear infinite;
+  animation: rotate-b 2s linear infinite;
 }
 
-@keyframes rotate-A {
+@keyframes rotate-a {
   0%,
   25% {
     transform: rotate(0deg);
@@ -52,7 +52,7 @@ body {
   }
 }
 
-@keyframes rotate-B {
+@keyframes rotate-b {
   0%,
   25% {
     transform: rotate(90deg);
